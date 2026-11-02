@@ -1,0 +1,52 @@
+{
+  "name": "Department of Women, Gender, and Sexuality Studies",
+  "shortName": "WGSS",
+  "url": "https://cssweb-stack.github.io/wgss",
+  "defaultHero": "/_media/heros/hero-01.webp",
+  "ga4MeasurementId": "",
+  "searchProvider": "google-site-restricted",
+  "prefix": "Department of",
+  "logo": {
+    "src": "/_media/unit/wgss-logo-white.svg",
+    "alt": "Department of Women, Gender, and Sexuality Studies, University of Hawaiʻi at Mānoa",
+    "width": 500,
+    "height": 320
+  },
+  "privacy": {
+    "label": "Department Privacy Policy",
+    "url": "/privacy/"
+  },
+  "webmaster": {
+    "label": "Department Webmaster",
+    "email": "cssweb@hawaii.edu"
+  },
+  "address": [
+    "2424 Maile Way",
+    "Saunders Hall 722",
+    "Honolulu, HI 96822"
+  ],
+  "phone": {
+    "label": "1 (808) 956-7464",
+    "href": "tel:+18089567464"
+  },
+  "email": {
+    "label": "wgss@hawaii.edu",
+    "href": "mailto:wgss@hawaii.edu",
+    "contactHref": "mailto:wgss@hawaii.edu"
+  },
+  "socialLinks": [],
+  "search": {
+    "domain": "cssweb-stack.github.io/wgss/",
+    "label": "WGSS"
+  },
+  "courseResources": [],
+  "facultyBasePath": "/faculty/",
+  "bluesky": {
+    "enabled": false
+  },
+  "hero": {
+    "decorative": true,
+    "showLocation": false,
+    "showAttribution": false
+  }
+}

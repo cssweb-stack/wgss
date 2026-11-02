@@ -1,0 +1,78 @@
+[
+  {
+    "label": "Home",
+    "url": "/"
+  },
+  {
+    "label": "About WGSS",
+    "children": [
+      {
+        "label": "Why Study WGSS",
+        "url": "/about-wgss/why-study-wgss.html",
+        "icon": "compass"
+      },
+      {
+        "label": "Department Overview",
+        "url": "/about-wgss/department-overview.html",
+        "icon": "book"
+      },
+      {
+        "label": "Scholarships",
+        "url": "/about-wgss/scholarships.html",
+        "icon": "award"
+      },
+      {
+        "label": "Alumni",
+        "url": "/about-wgss/alumni.html",
+        "icon": "people"
+      }
+    ]
+  },
+  {
+    "label": "Undergraduate",
+    "children": [
+      {
+        "label": "Certificate",
+        "url": "/undergraduate/certificate.html",
+        "icon": "journal"
+      },
+      {
+        "label": "Queer Studies",
+        "url": "/undergraduate/queer-studies.html",
+        "icon": "book"
+      },
+      {
+        "label": "Major BA",
+        "url": "/undergraduate/major-ba.html",
+        "icon": "mortarboard"
+      },
+      {
+        "label": "Honors Track",
+        "url": "/undergraduate/honors-track.html",
+        "icon": "award"
+      }
+    ]
+  },
+  {
+    "label": "Graduate",
+    "children": [
+      {
+        "label": "Graduate Certificate",
+        "url": "/graduate/graduate-certificate.html",
+        "icon": "mortarboard"
+      }
+    ]
+  },
+  {
+    "label": "Faculty",
+    "url": "/faculty/"
+  },
+  {
+    "label": "Support WGSS",
+    "url": "/support-wgss/"
+  },
+  {
+    "label": "Contact",
+    "url": "/contact/"
+  }
+]
