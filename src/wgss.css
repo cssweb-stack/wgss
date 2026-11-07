@@ -1,3 +1,4 @@
+@import url("./callouts.css");
 /* WGSS-specific overrides only.
 The current shared base loads geo.css; Eleventy publishes this local wgss.css
 under that compatibility output name. Shared rules stay in css-shared. */
