@@ -1,0 +1,96 @@
+{
+  "source": "womengenderandsexualitystudieswgss.WordPress.2026-11-11.xml",
+  "sha256": "6fa6918c3fdbee9e242a389b239a031bed8d7febd7d3eb8e9ded1d1cb773f59a",
+  "pages": 28,
+  "coreFaculty": 7,
+  "otherBiographyPages": 1,
+  "staff": 1,
+  "missingBiographies": [],
+  "missingCoreContactFields": {
+    "Monisha Das Gupta": [
+      "email",
+      "office"
+    ]
+  },
+  "youtubeEmbeds": {
+    "alumni": 6,
+    "home": 1
+  },
+  "trackingStatus": "YouTube API enabled; live GA4/GTM event collection not verified.",
+  "learningOutcomeScope": "Source calls them Undergraduate Student Learning Objectives; BA-only scope not explicitly stated.",
+  "sourceImagesNotDownloaded": [
+    "https://uhfoundation.org/themes/custom/logos/uhf_left_rgb230v2.svg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/07/honors-program-full.png",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/07/undergrad-students-03.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/Brooke-Tanaka.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/Kathy-Ferguson.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/L-Ayu-Saraswati.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/Lani-Teves.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/Meda-Chesney-Lind.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/Mire-Koikari.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/about.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/monisha-das-gupta.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2019/08/saunders-hall.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2021/06/Ruth-Dawson.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2022/09/Heijin-Lee.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2023/08/Lisa-M-Vallin2-1.jpg",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2023/08/comg2-jpg.webp",
+    "https://wgss.manoa.hawaii.edu/wp-content/uploads/2023/08/logo-black.png"
+  ],
+  "unresolvedSourceLinks": [],
+  "publishedUrls": [
+    "/faculty/monisha-das-gupta.html",
+    "/faculty/kathy-ferguson.html",
+    "/faculty/mire-koikari.html",
+    "/faculty/lani-teves.html",
+    "/faculty/s-heijin-lee.html",
+    "/faculty/lisa-m-vallin.html",
+    "/faculty/meda-chesney-lind.html",
+    "/",
+    "/about-wgss/alumni.html",
+    "/about-wgss/colloquia.html",
+    "/undergraduate/certificate.html",
+    "/undergraduate/queer-studies.html",
+    "/undergraduate/major-ba/",
+    "/undergraduate/major-ba/transnational-courses.html",
+    "/undergraduate/major-ba-online.html",
+    "/undergraduate/double-majors.html",
+    "/undergraduate/honors-track.html",
+    "/graduate/graduate-certificate.html",
+    "/support-wgss.html",
+    "/contact.html",
+    "/funding-sources.html",
+    "/about-wgss/why-study-wgss.html",
+    "/undergraduate/student-learning-outcomes.html",
+    "/graduate/applications-admissions.html",
+    "/wgss-courses.html",
+    "/privacy.html",
+    "/faculty/core-faculty.html",
+    "/faculty/associated-faculty.html"
+  ],
+  "profilesIntentionallyDisabled": [
+    "L. Ayu Saraswati"
+  ],
+  "associatedFacultySource": {
+    "file": "Women's Studies, UH Mānoa.docx",
+    "sha256": "cbfd339cb65650f12e8820852f1771cd6cf55852a2358739983c0e1679570e66",
+    "groups": [
+      {
+        "title": "Affiliate Faculty",
+        "count": 65
+      },
+      {
+        "title": "Cooperating Graduate Faculty",
+        "count": 8
+      },
+      {
+        "title": "Lecturers",
+        "count": 15
+      },
+      {
+        "title": "Emeriti Faculty",
+        "count": 2
+      }
+    ]
+  }
+}

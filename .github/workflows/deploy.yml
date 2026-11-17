@@ -1,10 +1,6 @@
 name: Build and publish WGSS
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: '53 * * * *'
 permissions:
   contents: read
   pages: write
@@ -48,6 +44,7 @@ jobs:
         run: npm run build
         env:
           SITE_PATH_PREFIX: /wgss/
+          SITE_ORIGIN: https://cssweb-stack.github.io
       - name: Record shared revision
         run: |
           node --input-type=module -e 'import fs from "node:fs"; const state = JSON.parse(fs.readFileSync(".shared-state.json", "utf8")); fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, "Shared source: " + state.repository + "\n\nCommit: `" + state.commit + "`\n");'

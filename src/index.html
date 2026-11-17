@@ -1,19 +1,22 @@
 ---
-layout: layouts/base.njk
-title: "Women, Gender, and Sexuality Studies"
-hidePageTitle: true
-description: "WGSS website demonstration with placeholder content."
+layout: shell.njk
+title: "Women, Gender and Sexuality Studies at the University of Hawaiʻi"
+description: "This will be the meta description."
 permalink: "/"
 ---
-<div class="page-header">
-<h1>Women, Gender, and Sexuality Studies</h1>
-<p class="intro-highlight">WGSS website demonstration.</p>
-<p class="page-intro">This homepage is a demonstration of the shared website design for the Department of Women, Gender, and Sexuality Studies. The text below is placeholder content for reviewing the layout.</p>
-</div>
-{% include "components/space-medium.njk" %}
-<p>This is sample text for the Women, Gender, and Sexuality Studies page. It provides a realistic amount of content so that headings, paragraph spacing, and page length can be reviewed before final material is supplied.</p>
-<p>The department will review and replace this text with its own information. This demonstration does not announce programs, requirements, eligibility rules, deadlines, or other academic commitments.</p>
-<p>A visitor should be able to read the introduction, identify the purpose of a page, and find the next useful section. This paragraph stands in for the explanation that will eventually support those tasks.</p>
-<p>Additional content can describe the topic in clear language and link to relevant resources when they are available. For this first version, the focus is on testing a consistent reading experience.</p>
-<p>The navigation connects each demonstration page to the rest of the site. The same shared structure supports desktop, tablet, and phone layouts while the department supplies its own page content.</p>
-<p>This final sample paragraph completes the layout review. After the demonstration is approved, department information can be added one page at a time using the existing headings, text styles, and shared components.</p>
+<div class="page-section"><div class="container content-section"><div class="row gx-0 gx-sm-5 gx-lg-5"><div class="col-12">
+<h1>Women, Gender and Sexuality Studies at the University of Hawaiʻi</h1><p>Our department is proud to offer an interdisciplinary approach to studying women and gender issues. We emphasize multicultural and global education and innovative feminist research on gender, sexuality, ethnic and national diversity, and social justice, focusing on women in Hawaiʻi, Asia, and the Pacific. We offer a <a href="{{ '/undergraduate/major-ba/' | url }}">major (BA)</a>
+ with a <em>fully online option</em>
+, undergraduate <a href="{{ '/undergraduate/certificate.html' | url }}">WGSS</a>
+ and <a href="{{ '/undergraduate/queer-studies.html' | url }}">Queer Studies</a>
+ certificates, and a <a href="{{ '/graduate/graduate-certificate.html' | url }}">graduate certificate</a>
+.</p>
+<hr>
+	{% from "layouts/content/youtube.njk" import youtubeEmbed %}
+{{ youtubeEmbed("https://www.youtube.com/embed/Q2Jtu90Ryf8?rel=0&cc_load_policy=1", "Overview, Department of Women's Studies, University of Hawaiʻi at Mānoa", site.url) }}
+	<ul>
+<li>Don't miss our <a href="{{ '/about/alumni.html' | url }}">Alumni Spotlight</a>
+ videos!</li>
+</ul>
+	<h2>Join Us!</h2>
+</div></div></div></div>

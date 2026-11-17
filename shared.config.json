@@ -1,5 +1,6 @@
 {
   "repository": "cssweb-stack/css-shared",
   "ref": "main",
-  "localPath": "../css-shared"
+  "localPath": "../css-shared",
+  "unit": "wgss"
 }

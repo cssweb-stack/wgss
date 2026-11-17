@@ -1,0 +1,36 @@
+---
+layout: shell.njk
+title: "Contact WGSS"
+description: "This will be the meta description."
+permalink: "/contact.html"
+---
+<div class="page-section">
+<div class="container content-section">
+<div class="row grid-one">
+<div class="col-12">
+<h1>Contact Women, Gender, and Sexuality Studies</h1>
+<p>We are open Monday-Friday from 8:00 am to 4:30 pm. We are closed on weekends and all <a href="https://www.hawaii.edu/academic-calendar/">state holidays</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="page-section">
+<div class="container content-section">
+<div class="row grid-one">
+<div class="col-12">
+{% include "layouts/content/unit-contact.njk" %}
+</div>
+</div>
+</div>
+</div>
+<div class="page-section page-section--gray">
+<div class="container content-section">
+<div class="row grid-one">
+<div class="col-12">
+<h2>Key Contacts</h2>
+{% set directoryPeople = key_contacts %}
+{% include "layouts/profiles/people-grid.njk" %}
+</div>
+</div>
+</div>
+</div>

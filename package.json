@@ -4,13 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "eleventy --serve --port=8083",
+    "dev": "eleventy --serve --port=8090",
     "build": "eleventy",
     "clean": "node -e \"import('node:fs').then(fs=>fs.rmSync('_site',{recursive:true,force:true}))\"",
-    "shared:sync": "node scripts/sync-shared.mjs"
+    "shared:check": "node scripts/shared-source.mjs",
+    "verify": "python3 scripts/verify-site.py"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "esbuild": "^0.28.2",
+    "nunjucks": "npm:@11ty/nunjucks@^3.3.0"
   },
-  "description": "WGSS demonstration using the CSS shared website foundation"
+  "overrides": {
+    "@11ty/chokidar-with-glob-support": "npm:chokidar@3.6.0"
+  }
 }
